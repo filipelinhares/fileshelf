@@ -1,0 +1,22 @@
+{
+  "name": "fileshelf",
+  "version": "0.1.0",
+  "description": "Test helpers for generated directory structure and file content",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipelinhares/fileshelf.git"
+  },
+  "author": "Filipe Linhares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipelinhares/fileshelf/issues"
+  },
+  "homepage": "https://github.com/filipelinhares/fileshelf#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
