@@ -7,7 +7,7 @@ class FileTest {
 	}
 
 	reset (item) {
-		fs.remove(path.resolve(this.dir, item), { recursive: true });
+		fs.removeSync(path.resolve(this.dir, item), { recursive: true });
 	}
 
 	readFile (file, encoding = 'utf8') {
